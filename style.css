@@ -1,0 +1,84 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background: white;
+    max-width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    overflow: hidden;
+  }
+  
+  .card__image {
+    width: 100%;
+    display: block;
+  }
+  
+  .card__content {
+    padding: 1.5rem;
+  }
+  
+  .card__category {
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+  }
+  
+  .card__date {
+    font-size: 12px;
+    color: hsl(212, 23%, 69%);
+    margin-left: 10px;
+  }
+  
+  .card__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: hsl(217, 19%, 35%);
+  }
+  
+  .card__description {
+    font-size: 13px;
+    color: hsl(214, 17%, 51%);
+    margin-bottom: 1.5rem;
+  }
+  
+  .card__author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .card__author-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .card__author-name {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .share-btn {
+    margin-left: auto;
+    border: none;
+    background: hsl(217, 19%, 35%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .share-btn:hover {
+    background: hsl(214, 17%, 51%);
+  }
+  

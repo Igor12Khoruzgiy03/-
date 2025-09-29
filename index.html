@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 4</title>
+
+  <!-- Підключаємо шрифт із style-guide -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Підключаємо CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <!-- головна картинка статті -->
+    <img src="assets\images\blog_image.png" alt="Article image" class="card__image">
+    <!-- ↑ заміни IMAGE_HERE.jpg на файл з assets -->
+
+    <div class="card__content">
+      <span class="card__category">Learning</span>
+      <span class="card__date">Published 21 Dec 2023</span>
+
+      <h2 class="card__title">HTML & CSS foundations</h2>
+      <p class="card__description">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+
+      <div class="card__author">
+        <!-- аватар автора -->
+        <img src="assets\images\avatar_male.png" alt="Author avatar" class="card__author-img">
+        <!-- ↑ заміни AVATAR_HERE.jpg на файл з assets -->
+
+        <div>
+          <p class="card__author-name">Greg Hooper</p>
+        </div>
+        <button class="share-btn">🔗 Share</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Підключаємо JS -->
+  <script src="script.js"></script>
+</body>
+</html>
